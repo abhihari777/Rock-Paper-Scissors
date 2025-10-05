@@ -35,14 +35,11 @@ If hosted online, share your live demo link here:
 👉 Play the Game
 ---
 
-✨ Future Enhancements
-
--Add background music or sound effects.
--Include animations for each move.
--Add a reset or replay button.
--Introduce multiple difficulty levels.
+## ✨ Future Enhancements
+- Add background music or sound effects.
+- Include animations for each move.
+- Add a reset or replay button.
+- Introduce multiple difficulty levels.
 ---
-🧾 License
-
-This project is licensed under the MIT License — see the LICENSE
- file for details.
+## 🧾 License
+- This project is licensed under the MIT License — see the LICENSE file for details.
