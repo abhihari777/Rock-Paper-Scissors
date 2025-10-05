@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    background-image: url(images/bg.jfif);
+    background-size: cover;
+    height:100vh;
+    width:100vw;
+}
+
+@property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+h1 {
+    background-image:url(images/bg.jfif);
+    background-position: center;
+    height:5rem;
+    width:99.8%;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    left: 0.1%;
+    top:0.1%;
+    color: rgba(30, 182, 132, 0.603);
+    font-family: "Amatic SC", sans-serif;
+    font-size: 3.5rem;
+    
+}
+
+h1::after {
+    content: '';
+    background-image: conic-gradient(from var(--angle),transparent 50%,  #85a293, #bfd9d0, #2d4841, #f0f4f5);
+    height:calc(100%);
+    width:calc(100%);
+    position: absolute;
+    top:50%;
+    left:50%;
+    translate:-50% -50%;
+    z-index:-1;
+    padding:1px;
+    animation: spin 3s linear infinite;
+
+}
+
+@keyframes spin {
+    from{
+        --angle: 0deg;
+    }
+
+    to {
+        --angle: 360deg;
+    }
+    
+}
+
+.game {
+    height:190px;
+    width:190px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.game:hover {
+    background: linear-gradient(45deg, #85a293, #bfd9d0, #2d4841, #f0f4f5);
+    cursor:pointer;
+    -webkit-animation: rotating 20s infinite;
+    animation: rotating 10s infinite;
+}
+
+
+
+@keyframes rotating {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+
+}
+
+.game img {
+    height:170px;
+    width:170px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+
+.game:hover img {
+    animation: counter-rotating 10s infinite;
+}
+
+@keyframes counter-rotating {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(-360deg);}
+}
+
+
+.games {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top:2rem;
+    gap:10px;
+}
+
+.user,.comp {
+    color: rgba(218, 218, 218, 0.603);
+    text-align: center;
+}
+
+.msg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+    font-size:1.5rem;
+}
+
+#user-score, #comp-score {
+    font-size: 2rem;
+}
+
+.last {
+    color: rgba(218, 218, 218, 0.603);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:60px;
+    font-size:1.5rem;
+}
+
+
