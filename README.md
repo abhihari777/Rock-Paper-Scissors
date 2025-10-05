@@ -30,7 +30,7 @@ This project demonstrates basic DOM manipulation, event handling, and game logic
 
 ---
 ## 🌐 Demo
-👉 Play the Game.(https://abhihari777.github.io/Rock-Paper-Scissors/)
+👉 [Play the Game.](https://abhihari777.github.io/Rock-Paper-Scissors/)
 
 ---
 
