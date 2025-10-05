@@ -125,6 +125,7 @@ h1::after {
     gap: 40px;
     margin-top: 40px;
     font-size:1.5rem;
+    font-family: "Black Ops One", "sans-serif";
 }
 
 #user-score, #comp-score {
@@ -138,6 +139,7 @@ h1::after {
     align-items: center;
     margin-top:60px;
     font-size:1.5rem;
+    font-family: "Black Ops One", "sans-serif";
 }
 
 @media (max-width:538px) {
@@ -155,6 +157,7 @@ h1::after {
         font-size: 3rem;
     }
 }
+
 
 
 
