@@ -41,4 +41,4 @@ This project demonstrates basic DOM manipulation, event handling, and game logic
 - Introduce multiple difficulty levels.
 ---
 ## 🧾 License
-- This project is licensed under the MIT License — see the LICENSE file for details.
+- This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
