@@ -29,7 +29,7 @@ This project demonstrates basic DOM manipulation, event handling, and game logic
 5. Keep playing to beat the computer’s score!  
 
 ---
-🌐 Demo
+## 🌐 Demo
 
 If hosted online, share your live demo link here:
 👉 Play the Game
