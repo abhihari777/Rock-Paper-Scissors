@@ -30,8 +30,6 @@ This project demonstrates basic DOM manipulation, event handling, and game logic
 
 ---
 ## 🌐 Demo
-
-If hosted online, share your live demo link here:
 👉 Play the Game
 ---
 
